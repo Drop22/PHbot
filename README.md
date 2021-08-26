@@ -1,120 +1,48 @@
-<div align="center">
-<img src="https://i.ytimg.com/vi/nkhVzxXnuSQ/maxresdefault.jpg" alt="HisokaBot" width="500" />
+<h1 align="center"><b> THE X-Troid Public Bot  </b></h1>
 
-# _**HisokaBot**_
+![logo](https://telegra.ph/file/569fd05fb4c587a360d38.jpg)
 
-> ANTECH is a multipurpose WhatsApp bot using wa-automate-nodejs library!
-> Script Copy From [BocchiBot](https://github.com/SlavyanDesu/BocchiBot)
->
->
 
-# Requirements
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://www.gyan.dev/ffmpeg/builds/)
-* [libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
 
-# Installation
-## 📝 Cloning this repo
-```cmd
-> git clone https://github.com/dxxoo/HisokaBOT-Whatsapp-Bot.git
-> cd HisokaBOT-Whatsapp-Bot
+
+<p align="center">
+    Project of X-Troid - Makes it easy and fun to use Whatsapp. Also first Sinhala userbot for Whatsapp.
+    <br>
+        <a href="http://t.me/danumabots">Telegram Channel</a> |
+        <a href="https://t.me/danuma01">Telegram Group</a> |
+        <a href="https://chat.whatsapp.com/JigWG8oj1hj1YXLgJaqxta">New Support Group</a> |
+        <a href="https://t.me/unofficialplugin">All Groups & channels </a> |
+    <br>
+</p>
+
+[![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://replit.com/@lasindu123/XTROID)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lasiyaWA/X-Troid)
+
+
+
+### ⚠️ Warning! 
 ```
-
-## ✍️ Editing the file
-Edit the required value in `config.json`.
-```json
-{
-    "ownerBot": "62812xxxxxxxx@c.us", 
-    "prefix": "$",
-    "uaOverride": "WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
-    "itech": "api-key",
-    "nao": "api-key",
-    "vhtear": "api-key",
-    "melodic": "administrator",
-    "tobz": "BotWeA"
-}
+Due to Userbot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, Asena executives do not accept responsibility.
+By establishing the Asena, you are deemed to have accepted these responsibilities.
 ```
+### Disclaimer
+`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
 
-`ownerBot`: your WhatsApp number.  
-`prefix`: bot's prefix.  
-`uaOverride`: your user agent.  
-`itech`: I-Tech API key. You can get it [here](https://api.i-tech.id) by creating an account. After that, set your server/host static IP in [here](https://api.i-tech.id/settings/profile).  
-`nao`: SauceNAO API key. You can get it [here](https://saucenao.com/user.php) by creating an account.  
-`vhtear`: VHTear API key. You can get it [here](https://api.vhtear.com/) by purchasing his API key.  
-`melodic`: MelodicXT API key. You can use `administrator` key.   
-`tobz`: Tobz API key. You can use `BotWeA` key.   
+## Thanks To
+[![Yusuf Usta](https://github.com/yusufusta.png?size=50)](https://t.me/fusufs)  | [![CW4RR10R](https://github.com/CW4RR10R.png?size=50)](https://github.com/CW4RR10R)
+----|----|
+[Yusuf Usta](https://t.me/fusufs) | [CW4RR10R](https://t.meW4RR10R)
+ Base, | hepls,idea
 
-## 🗣️ Changing language
-If you want to change the language to English, replace all `ind` function to `eng`.   
-Example:
-```js
-ind.wrongFormat()
-```
-To:
-```js
-eng.wrongFormat()
-```
+# base bot
+https://github.com/yusufusta/WhatsAsena
 
-## 🛠️ Installing the FFmpeg
-* Download one of the available versions of FFmpeg by clicking [this link](https://www.gyan.dev/ffmpeg/builds/).
-* Extract the file to `C:\` path.
-* Rename the extracted folder to `ffmpeg`.
-* Run Command Prompt as Administrator.
-* Run this command:
-```cmd
-> setx /m PATH "C:\ffmpeg\bin;%PATH%"
-```
-It will give us a callback like `SUCCESS: specified value was saved`.
-* Now that you've FFmpeg installed, verify that it's working by running this command to see version number:
-```cmd
-> ffmpeg -version
-```
-
-## 📷 Installing the libwebp
-The installation is same as you install FFmpeg but whatever. I will make it clear.
-* Download the file according to the OS you are using by clicking [this link](https://developers.google.com/speed/webp/download).
-* Extract the file to `C:\` path.
-* Rename the extracted file to `libwebp`.
-* Run Command Prompt as Administrator.
-* Run this command:
-```cmd
-> setx /m PATH "C:\libwebp\bin;%PATH%"
-```
-It will give us a callback like `SUCCESS: specified value was saved`.
-* Now that you've libwebp installed, verify that it's installed by running this command to see version number:
-```cmd
-> webpmux -version
-```
-
-## 🔍 Installing the dependencies
-```cmd
-> npm install
-```
-
-## 🆗 Running the bot
-Regular node:
-```cmd
-> npm start
-```
-
-PM2:
-```cmd
-> pm2 start index.js
-> pm2 monit
-```
-
-PM2 with cron job (restart after 5 hours):
-```cmd
-> pm2 start index.js --cron "* */5 * * *"
-> pm2 monit
-```
-
-After that scan the QR code using your WhatsApp in your phone!
-
-# Features
-If you want to unlock premium commands, please buy me a coffee at least 1 on Ko-fi platform.
+# Baileys whatsapp api 
+https://github.com/adiwajshing/Baileys
+[![](https://telegra.ph/file/1c742619b421e4713e414.jpg?size=50)](https://t.me/danumabots)
 
 |     Leveling     |  Availability  |
 | :--------------: | :------------: |
