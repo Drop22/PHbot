@@ -1,6 +1,6 @@
-<h1 align="center"><b> THE X-Troid Public Bot  </b></h1>
+<h1 align="center"><b> THE  Public Bot  </b></h1>
 
-![logo](https://telegra.ph/file/569fd05fb4c587a360d38.jpg)
+![logo](https://rfmsomnii.com/wp-content/uploads/2020/02/Optimized-AW_AVIATION_11-CLEAN.jpg)
 
 
 
@@ -17,7 +17,7 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/phaticusthiccy/WhatsAsenaDuplicated)](https://replit.com/@lasindu123/XTROID)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lasiyaWA/X-Troid)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Drop22/PHbot)
 
 
 
